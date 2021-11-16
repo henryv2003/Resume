@@ -1,0 +1,71 @@
+ <ul>
+                                        <li>I'm a skilled Painter with more than 10 years of experience in Painting and Spraying with different type of paints like oil base,
+                                          latex, wood stains, barnish, Enamel, Anti-Corrosive, Plastic Paints like semi/high gloss in projects from new construction and repaint.
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Experience working with drywall(gypsum) 
+                                        from framing, installation, tape and mud(finish), knockdown texture, wall repairs, mold remediation
+                                        and water damage restoration.
+                                        </li>
+                                        <li>
+                                            Basic Carpentry like baseboards installation, windows/door trim installation and minor structural repairs.  
+                                        </li>
+
+                                        
+                                    </ul>
+
+
+
+
+
+                                    to guarantee the expecting results from the employer/project manager
+                                         to meet customer demand.
+
+
+
+
+
+                                         social
+
+                                         <div class="col-sm-4">
+                   <h5 class="uppercase general-sub">Social</h5>
+                   <ul class="list-inline social-links">
+                      <li class="list-inline-item">
+                          <a target="_blank" href="#">
+                             <i class="fa fa-facebook" aria-hidden="true"></i>
+                             <span class="sr-only">Facebook</span>
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                           <span class="sr-only">Twitter/span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                           <i class="fa fa-linkedin" aria-hidden="true"></i>
+                           <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                           <i class="fa fa-pinterest" aria-hidden="true"></i>
+                           <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                           <i class="fa fa-instagram" aria-hidden="true"></i>
+                           <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                           <i class="fa fa-youtube" aria-hidden="true"></i>
+                           <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                   </ul>
+                </div>

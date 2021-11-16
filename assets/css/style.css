@@ -15,7 +15,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: rgb(37, 20, 73);
 }
 
 .bg-color-contact {
@@ -28,7 +28,7 @@
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color: rgb(37, 20, 73);
 }
 
 .ui-menu-color-contact {
@@ -91,11 +91,11 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../images/resumepic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 350px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -180,6 +180,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    
 }
 
 .cv-pdf i {
@@ -224,19 +225,20 @@ footer {
     padding: 20px;
 }
 
-/*--------------------------------------------three reasons */
+/* three reasons */
 
 .three-reasons-icon{
     font-size: 26px;
     color: #e67e22;
 }
 
+
 .three-reasons-heading{
     margin-bottom: 15px;
 }
 
 
-/*--------------------------------------------Personal Info */
+/* Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -272,11 +274,11 @@ footer {
 }
 
 
-/*--------------------------------------------Skills */
+/* Skills */
 
 .progress {
     position: relative;
-    height: 25px;
+    height: 23px;
     margin-bottom: 5px;
 }
 
@@ -289,10 +291,24 @@ color: #fafafa;
 background-color: rgba(25, 25, 25, 0.2);
 }
 
+
+
 .progress-section {
     margin: 40px 20px;
 }
 
+
+
+.progress-type2 {
+    position: absolute;
+    left: 0px;
+  font-weight: 400;
+  padding: 3px 5px 5px 8px;
+  color: #fafafa;
+  background-color: rgba(25, 25, 25, 0.199);
+  border-radius: 5px;
+  z-index: 9;
+  }
 
 /*--------------------------------------------Work History */
 
@@ -343,7 +359,7 @@ margin-bottom: 50px;
     margin:30px;
     }
 
-    /*--------------------------------------------Contact Form */
+    /*--------------------------------------------Contact Form*/
 
     .contact-heading {
         font-family: "EXO", sans-serif;
@@ -352,7 +368,7 @@ margin-bottom: 50px;
         margin-bottom: 20px;
     }
 
-    .center-form {
+    /*.center-form {
         padding-top: 10px;
         margin: 0 auto;
         max-width: 70%;
@@ -363,6 +379,16 @@ margin-bottom: 50px;
         margin-bottom: 20px;
         color: #fafafa;
         background-color: #e84610;
+    } */
+
+    .gallery {
+        margin: 20px 34px;
+    }
+
+    .gallery img {
+        width: 300px;
+        height: 300px;
+        margin: 3px;
     }
 
 
