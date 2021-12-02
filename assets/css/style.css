@@ -404,3 +404,10 @@ margin-bottom: 50px;
             max-width: 50%;
         }
     }
+
+    @media(max-width: 480px){
+        .gallery {
+            display: flex;
+            flex-direction: column;
+        }
+    }
