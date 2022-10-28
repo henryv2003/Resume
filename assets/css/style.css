@@ -41,12 +41,14 @@
 
 /*--------------------------------------------Special paddings/margins/text */
 
+
 h1,
 h2,
 h3,
 h4 {
-    margin: 0;
+    margin: 10px;
 }
+ 
 
 .uppercase {
     text-transform:uppercase;
@@ -86,10 +88,6 @@ header {
     margin: 0;
 }
 
-.heading {
-    margin-left: 50px;
-}
-
 .logo {
     background: url("../images/resumepic.jpg");
     background-position: center;
@@ -125,6 +123,7 @@ header {
 .menucontainer {
     font-size: 0;
 }
+
 
 #nav li {
     font-size: 14px;
@@ -383,7 +382,10 @@ margin-bottom: 50px;
     } */
 
     .gallery {
-        margin: 60px 55px;
+        
+        display: block;
+        text-align: center;
+        
     }
 
     .gallery img {
@@ -403,11 +405,27 @@ margin-bottom: 50px;
             margin: 0 auto;
             max-width: 50%;
         }
+
+        
+
+        .section-column {
+            display: table-cell;
+            padding: 0;
+            float: none;
+        }
+
     }
 
     @media(max-width: 480px){
-        .gallery {
-            display: flex;
-            flex-direction: column;
+        
+
+        .section-column {
+            display: table-cell;
+            padding: 5px;
+            float: none;
+        }
+
+        .offset-1 {
+            margin-left: 0;
         }
     }
