@@ -1,139 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/lightbox.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.min.css" />
     <script src="assets/js/lightbox-plus-jquery.min.js"></script>
     <title>Gallery</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <header>
-           <div class="row no-gutters">
-              <a href="index.html" class="col-md-4 logo">
-              </a>
-                <div class="col-md-8">
-                  <div class="row no-gutters bg-color-name-title">
-                      <div class="col heading">
-                         <h1 class="name">Henry Valle</h1>
-                         <h2 class="title">Målare/Byggnadsarbetare</h2>
-                      </div>
-                  </div>  
-                  <div class="row no-gutters">
-                     <div class="col">
-                         <ul id="nav" class="list-inline menucontainer">
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
-                              <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Hem</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem">
-                               <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span>återuppta</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-                                <a href="gallery.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment" aria-hidden="true"></i><span>Galleri</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
-                                <a href="assets/cv/Henry_Valle_-_Resume_-_Construction_Worker 2.pdf" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Ladda Ner</span></a>
-                            </li>
-                         </ul>
-                      </div>
-                   </div>  
-                </div>
+      <div class="row no-gutters">
+        <a href="index.html" class="col-md-4 logo"> </a>
+        <div class="col-md-8">
+          <div class="row no-gutters bg-color-name-title">
+            <div class="col heading">
+              <h1 class="name">Henry Valle</h1>
+              <h2 class="title">Målare/Byggnadsarbetare</h2>
             </div>
-     </header>
-
-     <section class="container-fluid">
-         <div class="row bg-color-contact">
-             <div class="col">
-                 <h3 class="contact-heading uppercase text-center">Photo Gallery From Previous Jobs!</h3>
-                 <h5 class="uppercase text-center"></h5>
-             </div>
-             <div class="gallery">
-                <a href="./assets/images/pic1.jpg" data-lightbox="gallery"><img src="./assets/images/pic1.jpg" alt=""></a>
-                <a href="./assets/images/pic2.jpg" data-lightbox="gallery"><img src="./assets/images/pic2.jpg" alt=""></a>
-                <a href="./assets/images/54.JPEG" data-lightbox="gallery"><img src="./assets/images/54.JPEG" alt=""></a>
-                <a href="./assets/images/pic3.jpg" data-lightbox="gallery"><img src="./assets/images/pic3.jpg" alt=""></a>
-                <a href="./assets/images/53.JPG" data-lightbox="gallery"><img src="./assets/images/53.JPG" alt=""></a>
-                <a href="./assets/images/pic4.jpg" data-lightbox="gallery"><img src="./assets/images/pic4.jpg" alt=""></a>
-                <a href="./assets/images/pic5.jpg" data-lightbox="gallery"><img src="./assets/images/pic5.jpg" alt=""></a>
-                <a href="./assets/images/pic5-1.jpg" data-lightbox="gallery"><img src="./assets/images/pic5-1.jpg" alt=""></a>
-                <a href="./assets/images/pic5-2.jpg" data-lightbox="gallery"><img src="./assets/images/pic5-2.jpg" alt=""></a>
-                <a href="./assets/images/pic6.jpg" data-lightbox="gallery"><img src="./assets/images/pic6.jpg" alt=""></a>
-                <a href="./assets/images/pic7.jpg" data-lightbox="gallery"><img src="./assets/images/pic7.jpg" alt=""></a>
-                <a href="./assets/images/pic7-1.jpg" data-lightbox="gallery"><img src="./assets/images/pic7-1.jpg" alt=""></a>
-                <a href="./assets/images/pic7-2.jpg" data-lightbox="gallery"><img src="./assets/images/pic7-2.jpg" alt=""></a>
-                <a href="./assets/images/pic7-3.jpg" data-lightbox="gallery"><img src="./assets/images/pic7-3.jpg" alt=""></a>
-                <a href="./assets/images/pic8.jpg" data-lightbox="gallery"><img src="./assets/images/pic8.jpg" alt=""></a>
-                <a href="./assets/images/pic9.jpg" data-lightbox="gallery"><img src="./assets/images/pic9.jpg" alt=""></a>
-                <a href="./assets/images/37.JPEG" data-lightbox="gallery"><img src="./assets/images/37.JPEG" alt=""></a>
-                <a href="./assets/images/pic11.jpeg" data-lightbox="gallery"><img src="./assets/images/pic11.jpeg" alt=""></a>
-                <a href="./assets/images/pic12.jpg" data-lightbox="gallery"><img src="./assets/images/pic12.jpg" alt=""></a>
-                <a href="./assets/images/pic13.jpg" data-lightbox="gallery"><img src="./assets/images/pic13.jpg" alt=""></a>
-                <a href="./assets/images/pic14.jpg" data-lightbox="gallery"><img src="./assets/images/pic14.jpg" alt=""></a>
-                <a href="./assets/images/pic15.jpg" data-lightbox="gallery"><img src="./assets/images/pic15.jpg" alt=""></a>
-                <a href="./assets/images/pic16.jpg" data-lightbox="gallery"><img src="./assets/images/pic16.jpg" alt=""></a>
-                <a href="./assets/images/51.JPG" data-lightbox="gallery"><img src="./assets/images/51.JPG" alt=""></a>
-                <a href="./assets/images/pic17.jpg" data-lightbox="gallery"><img src="./assets/images/pic17.jpg" alt=""></a>
-                <a href="./assets/images/pic19.jpg" data-lightbox="gallery"><img src="./assets/images/pic19.jpg" alt=""></a>
-                <a href="./assets/images/pic20.jpg" data-lightbox="gallery"><img src="./assets/images/pic20.jpg" alt=""></a>
-                <a href="./assets/images/pic21.JPG" data-lightbox="gallery"><img src="./assets/images/pic21.JPG" alt=""></a>
-                <a href="./assets/images/pic22.JPG" data-lightbox="gallery"><img src="./assets/images/pic22.JPG" alt=""></a>
-                <a href="./assets/images/pic23.jpg" data-lightbox="gallery"><img src="./assets/images/pic23.jpg" alt=""></a>
-                <a href="./assets/images/pic24.JPG" data-lightbox="gallery"><img src="./assets/images/pic24.JPG" alt=""></a>
-                <a href="./assets/images/pic25.JPG" data-lightbox="gallery"><img src="./assets/images/pic25.JPG" alt=""></a>
-                <a href="./assets/images/pic26.JPG" data-lightbox="gallery"><img src="./assets/images/pic26.JPG" alt=""></a>
-                <a href="./assets/images/pic27.JPG" data-lightbox="gallery"><img src="./assets/images/pic27.JPG" alt=""></a>
-                <a href="./assets/images/pic29.JPG" data-lightbox="gallery"><img src="./assets/images/pic29.JPG" alt=""></a>
-                <a href="./assets/images/pic31.JPG" data-lightbox="gallery"><img src="./assets/images/pic31.JPG" alt=""></a>
-                <a href="./assets/images/pic32.JPG" data-lightbox="gallery"><img src="./assets/images/pic32.JPG" alt=""></a>
-                <a href="./assets/images/pic34.jpg" data-lightbox="gallery"><img src="./assets/images/pic34.JPG" alt=""></a>
-                <a href="./assets/images/pic35.JPG" data-lightbox="gallery"><img src="./assets/images/pic35.JPG" alt=""></a>
-                <a href="./assets/images/39.JPG" data-lightbox="gallery"><img src="./assets/images/39.JPG" alt=""></a>
-                <a href="./assets/images/41.JPG" data-lightbox="gallery"><img src="./assets/images/41.JPG" alt=""></a>
-                <a href="./assets/images/43.JPG" data-lightbox="gallery"><img src="./assets/images/43.JPG" alt=""></a>
-                <a href="./assets/images/48.JPG" data-lightbox="gallery"><img src="./assets/images/48.JPG" alt=""></a>
-                <a href="./assets/images/49.JPG" data-lightbox="gallery"><img src="./assets/images/49.JPG" alt=""></a>
-                <a href="./assets/images/50.JPG" data-lightbox="gallery"><img src="./assets/images/50.JPG" alt=""></a>
-                <a href="./assets/images/55.JPG" data-lightbox="gallery"><img src="./assets/images/55.JPG" alt=""></a>
-                <a href="./assets/images/59.JPG" data-lightbox="gallery"><img src="./assets/images/59.JPG" alt=""></a>
-                
-             </div>
-         </div>
-     </section>
-
-     
-
-
-     <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-              <h5 class="uppercase general-sub">om mig</h5>
-                 <p class="inline-block">
-                    Målare/Byggnadsarbetare med kompetens och erfarenhet av inredning av hem.
-                </p>
+          </div>
+          <div class="row no-gutters">
+            <div class="col">
+              <ul id="nav" class="list-inline menucontainer">
+                <li
+                  class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem"
+                >
+                  <a href="index.html" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-home" aria-hidden="true"></i
+                    ><span>Hem</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem"
+                >
+                  <a href="resume.html" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-user-circle-o" aria-hidden="true"></i
+                    ><span>återuppta</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem"
+                >
+                  <a href="gallery.html" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-comment" aria-hidden="true"></i
+                    ><span>Galleri</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem"
+                >
+                  <a
+                    href="assets/cv/Henry_Valle_-_Resume_-_Construction_Worker 2.pdf"
+                    class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-download" aria-hidden="true"></i
+                    ><span>Ladda Ner</span></a
+                  >
+                </li>
+              </ul>
             </div>
-            <div class="col-sm-4">
-              <h5 class="uppercase general-sub">Download</h5>
-              <p class="inline-block">
-                Behöver du en utskrivbar version av mitt CV? Ladda ner den här.
-                  <a href="assets/cv/Henry_Valle_-_Resume_-_Construction_Worker 2.pdf" target="_blank" class="cv-pdf">
-                     <i class="fa fa-download" aria-hidden="true"></i>
-                     <span class="sr-only">Ladda ner.</span>
-                  </a>
-              </p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Intressen</h5>
-                <p class="inline-block">
-                    Musik, spela gitarr, laga mat, resa, lära sig nya färdigheter och lära sig språk.
-              </p>
-             </div>
+          </div>
         </div>
- </footer>
-</body>
+      </div>
+    </header>
+
+    <section class="container-fluid">
+      <div class="row bg-color-contact">
+        <div class="col">
+          <h3 class="contact-heading uppercase text-center">
+            Photo Gallery From Previous Jobs!
+          </h3>
+          <h5 class="uppercase text-center"></h5>
+        </div>
+        <div class="gallery">
+          <a href="./assets/images/pic1.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic1.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic2.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic2.jpg" alt=""
+          /></a>
+          <a href="./assets/images/54.JPEG" data-lightbox="gallery"
+            ><img src="./assets/images/54.JPEG" alt=""
+          /></a>
+          <a href="./assets/images/pic3.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic3.jpg" alt=""
+          /></a>
+          <a href="./assets/images/53.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/53.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic4.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic4.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic5.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic5.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic5-1.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic5-1.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic5-2.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic5-2.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic6.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic6.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic7.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic7.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic7-1.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic7-1.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic7-2.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic7-2.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic7-3.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic7-3.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic8.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic8.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic9.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic9.jpg" alt=""
+          /></a>
+          <a href="./assets/images/37.JPEG" data-lightbox="gallery"
+            ><img src="./assets/images/37.JPEG" alt=""
+          /></a>
+          <a href="./assets/images/pic11.jpeg" data-lightbox="gallery"
+            ><img src="./assets/images/pic11.jpeg" alt=""
+          /></a>
+          <a href="./assets/images/pic12.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic12.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic13.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic13.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic14.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic14.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic15.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic15.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic16.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic16.jpg" alt=""
+          /></a>
+          <a href="./assets/images/51.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/51.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic17.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic17.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic19.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic19.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic20.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic20.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic21.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/pic21.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic22.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/pic22.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic23.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic23.jpg" alt=""
+          /></a>
+          <a href="./assets/images/pic24.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/pic24.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic25.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/pic25.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic26.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/pic26.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic27.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/pic27.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic29.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/pic29.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic31.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/pic31.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic32.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/pic32.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic34.jpg" data-lightbox="gallery"
+            ><img src="./assets/images/pic34.JPG" alt=""
+          /></a>
+          <a href="./assets/images/pic35.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/pic35.JPG" alt=""
+          /></a>
+          <a href="./assets/images/39.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/39.JPG" alt=""
+          /></a>
+          <a href="./assets/images/41.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/41.JPG" alt=""
+          /></a>
+          <a href="./assets/images/43.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/43.JPG" alt=""
+          /></a>
+          <a href="./assets/images/48.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/48.JPG" alt=""
+          /></a>
+          <a href="./assets/images/49.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/49.JPG" alt=""
+          /></a>
+          <a href="./assets/images/50.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/50.JPG" alt=""
+          /></a>
+          <a href="./assets/images/55.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/55.JPG" alt=""
+          /></a>
+          <a href="./assets/images/59.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/59.JPG" alt=""
+          /></a>
+          <a href="./assets/images/61.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/61.JPG" alt=""
+          /></a>
+          <a href="./assets/images/62.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/62.JPG" alt=""
+          /></a>
+          <a href="./assets/images/63.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/63.JPG" alt=""
+          /></a>
+          <a href="./assets/images/64.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/64.JPG" alt=""
+          /></a>
+          <a href="./assets/images/65.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/65.JPG" alt=""
+          /></a>
+          /></a>
+          <a href="./assets/images/67.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/67.JPG" alt=""
+          /></a>
+          <a href="./assets/images/68.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/68.JPG" alt=""
+          /></a>
+          <a href="./assets/images/69.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/69.JPG" alt=""
+          /></a>
+          <a href="./assets/images/70.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/70.JPG" alt=""
+          /></a>
+          <a href="./assets/images/71.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/71.JPG" alt=""
+          /></a>
+          <a href="./assets/images/72.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/72.JPG" alt=""
+          /></a>
+          <a href="./assets/images/73.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/73.JPG" alt=""
+          /></a>
+          <a href="./assets/images/74.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/74.JPG" alt=""
+          /></a>
+          <a href="./assets/images/75.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/75.JPG" alt=""
+          /></a>
+          <a href="./assets/images/76.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/76.JPG" alt=""
+          /></a>
+          <a href="./assets/images/77.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/77.JPG" alt=""
+          /></a>
+          <a href="./assets/images/78.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/78.JPG" alt=""
+          /></a>
+          <a href="./assets/images/79.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/79.JPG" alt=""
+          /></a>
+          <a href="./assets/images/80.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/80.JPG" alt=""
+          /></a>
+          <a href="./assets/images/81.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/81.JPG" alt=""
+          /></a>
+          <a href="./assets/images/82.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/82.JPG" alt=""
+          /></a>
+          <a href="./assets/images/83.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/83.JPG" alt=""
+          /></a>
+          <a href="./assets/images/84.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/84.JPG" alt=""
+          /></a>
+          <a href="./assets/images/85.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/85.JPG" alt=""
+          /></a>
+          <a href="./assets/images/86.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/86.JPG" alt=""
+          /></a>
+          <a href="./assets/images/87.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/87.JPG" alt=""
+          /></a>
+          <a href="./assets/images/88.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/88.JPG" alt=""
+          /></a>
+          <a href="./assets/images/90.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/90.JPG" alt=""
+          /></a>
+          <a href="./assets/images/91.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/91.JPG" alt=""
+          /></a>
+          <a href="./assets/images/92.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/92.JPG" alt=""
+          /></a>
+          <a href="./assets/images/93.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/93.JPG" alt=""
+          /></a>
+          <a href="./assets/images/94.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/94.JPG" alt=""
+          /></a>
+          <a href="./assets/images/95.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/95.JPG" alt=""
+          /></a>
+          <a href="./assets/images/96.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/96.JPG" alt=""
+          /></a>
+          <a href="./assets/images/97.JPG" data-lightbox="gallery"
+            ><img src="./assets/images/97.JPG" alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid">
+      <div id="footer-details" class="row">
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">om mig</h5>
+          <p class="inline-block">
+            Målare/Byggnadsarbetare med kompetens och erfarenhet av inredning av
+            hem.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Download</h5>
+          <p class="inline-block">
+            Behöver du en utskrivbar version av mitt CV? Ladda ner den här.
+            <a
+              href="assets/cv/Henry_Valle_-_Resume_-_Construction_Worker 2.pdf"
+              target="_blank"
+              class="cv-pdf"
+            >
+              <i class="fa fa-download" aria-hidden="true"></i>
+              <span class="sr-only">Ladda ner.</span>
+            </a>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Intressen</h5>
+          <p class="inline-block">
+            Musik, spela gitarr, laga mat, resa, lära sig nya färdigheter och
+            lära sig språk.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
